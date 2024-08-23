@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai6_b</title>
+    <link rel="stylesheet" href="../CSS/Bai6_b.css">
+</head>
+<body>
+    <body>
+        <div class="section-1">
+            <div class="container">
+                <div class="inner-wrap">
+                    <div class="inner-head">
+                        <h1>Contact Us</h1>
+                    </div>
+                    <div class="inner-main">
+                        <div class="inner-box1">
+                            <fieldset>
+                                <legend>Your message:</legend>
+                                <div class="inner-content">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <label for="To">To</label>
+                                            </td>
+                                            <td>
+                                                <input type="text" placeholder="Example Cafe" id="To">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><label for="yourEmail">Your Email</label></td>
+                                            <td><input type="text" id="yourEmail"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label for="message">Message</label></td>
+                                            <td><textarea name="message" id="message" ></textarea></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                Attach File <input type="submit" value="Choose File"> No file chosen
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="inner-box2">
+                            <fieldset>
+                                <legend>How you found us:</legend>
+                                <table>
+                                    <tr>
+                                        <td><label for="how"> How did you hear of us </label></td>
+                                        <td><select name="how" id="how">
+                                                <option value="google">Google</option>
+                                                <option value="chrome">Chrome</option>
+                                                <option value="thorium">Thorium</option>
+                                            </select></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label for="newsletter">Newsletter</label>
+                                        </td>
+                                        <td>
+                                            <input type="checkbox" id="ensure">
+                                            <label for="ensure">Ensure this box is checked if you would like to receive email updates</label>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <footer id="send">
+                        <input type="submit" value="Send message">
+                    </footer>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

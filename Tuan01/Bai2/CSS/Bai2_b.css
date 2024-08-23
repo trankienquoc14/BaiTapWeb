@@ -1,0 +1,32 @@
+div{
+    width: 1040px;
+    height: 1235px;
+    border:2px solid black;
+    margin-top: 20px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+hr {
+    width: 990px;
+}
+h1{
+    margin-left: 5px;
+}
+#dessertweb {
+    margin-top: 60px;
+}
+#torte{
+    margin-left: 3px;
+    margin-bottom: 50px;
+}
+p{
+    padding-left: 3px;
+}
+ul{
+    margin-left: 10px;
+}
+ol{
+    margin-left: 10px;
+}

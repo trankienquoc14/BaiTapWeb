@@ -1,0 +1,13 @@
+div{
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 730px;
+    height: 810px;
+    border: 1px solid black;
+}
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}

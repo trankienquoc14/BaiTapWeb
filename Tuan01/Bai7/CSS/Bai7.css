@@ -1,0 +1,18 @@
+div{
+    width: 1070px;
+    height: auto;
+    border: 1px solid black;
+    padding-left: 5px;
+    margin-left: 40px;
+}
+hr{
+    width: 1050px;
+}
+a{
+    padding-left: 20px;
+}
+#smith{
+    width: 280px;
+    height: 320px;
+    margin-left: 200px;
+}

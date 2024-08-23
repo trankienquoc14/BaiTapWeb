@@ -1,0 +1,11 @@
+.section-1 .container {
+    border: 1px solid rgb(123, 200, 230);
+    max-width: 1150px;
+    width: 80%;
+    margin: 50px auto;
+    padding: 25px 10px;
+}
+#message{
+    width: 550px;
+    height: 200px;
+}
