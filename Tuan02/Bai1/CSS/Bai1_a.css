@@ -1,0 +1,61 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+#Menu ul li a{
+    text-decoration: none;
+}
+#Menu ul li {
+    display: inline-block;
+
+}
+#Container {
+    width: 900px;
+    height:480px;
+    border-left: 2px solid #9b312e;
+    border-right:2px solid #9b312e;
+    margin-top: 20px;
+}
+#Header{
+    width: 100%;
+    height: 150px;
+    border-top: 2px solid #9b312e;
+    /*Căn giữa h1*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Header h1{
+    color: #9b312e ;
+    font-size: 50px;
+    text-align: justify ;
+    text-transform: uppercase;
+    font-style: italic;
+    text-shadow: #b59193 20px 20px 10px;
+    
+}
+#Menu{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding-top: 5px;
+}
+#Section{
+    width: 100%;
+    height: 300px ;
+    border-bottom: 2px solid black;
+}
+#Section h2{
+    color: #9b312e ;
+    background-color:#f5f5dd;
+    color:#98332c ;
+}
+#Section a{
+    color:#d42e23;
+}
+#Section .C1{
+    text-transform: uppercase;
+    color:#b16d34 ;
+}

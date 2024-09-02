@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.wrapper {
+    background-image: url(../IMAGES/background.jpg);
+    width: 1000px;
+    height: 650px;
+    margin-top: 20px;
+    color: green;
+    border-bottom: 4px solid #4680de;
+}
+.wrapper #logo{
+    margin-left: 230px;
+    margin-top: 15px;
+}
+.wrapper #siggie{
+    margin-left: 280px;
+}

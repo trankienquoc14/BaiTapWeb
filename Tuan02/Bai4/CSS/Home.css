@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.wrapper {
+    width: 790px;
+    height: 804px;
+    border: 2px solid #d9d9d9;
+    margin-top: 20px;
+}
+.header{
+    width: 750px;
+    height: 80px;
+    padding-left: 420px;
+}
+
+.link{
+    width: 190px;
+    height: 720px;
+    background-image: url(../IMAGES/back.jpg);
+    border-top:2px solid #e6a73c;
+    float: left;
+}
+.link ul li{
+    list-style: none;
+    border-bottom: 1px dashed #c9935b;
+    padding-top: 13px;
+    margin-left: -30px;
+    width: 95%;
+}
+.link ul li a{
+    text-decoration: none;
+}
+.content{
+    width: 70%;
+    height: 720px;
+    float: left;
+    border-top:2px solid #e6a73c;
+}
+.section{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    padding-left: 20px;
+}
+.section h2{
+    color: #e6a73c;
+    padding-top: 18px;
+}
+.sc1{
+    width: 475px;
+    height: 610px;
+    background-image: url(../IMAGES/sample.jpg);
+    margin-right: 75px;
+    padding-left: 20px;
+}
+.text1{
+    width: 33%;
+    height: 165px;
+    padding-left: 5px;
+    border: 1px solid black;
+    background-color:#fefff0;
+    float: right;
+    margin-top: -40px;
+    margin-right: -70px;
+    font-size: 14px;
+    color: #925647;
+    border-top: 3px solid  #7f7e7a;
+    border-right: 3px solid #d2d6d0;
+    border-left: 3px solid  #7f7e7a;
+    border-bottom: 3px solid #d2d6d0;
+}
+.text2{
+    width: 35%;
+    height: 100px;
+    padding-left: 5px;
+    border: 1px solid black;
+    background-color:#fefff0;
+    font-size: 14px;
+    float: left;
+    margin-left: -50px;
+    margin-top: 255px;
+    color: #925647;
+    border-top: 3px solid  #7f7e7a;
+    border-right: 3px solid #d2d6d0;
+    border-left: 3px solid  #7f7e7a;
+    border-bottom: 3px solid #d2d6d0;
+}
+.text3{
+    width: 33%;
+    height: 113px;
+    padding-left: 5px;
+    border: 1px solid black;
+    background-color:#fefff0;
+    font-size: 14px;
+    float: right;
+    margin-top: 398px;
+    margin-right: -130px;
+    color: #925647;
+    border-top: 3px solid  #7f7e7a;
+    border-right: 3px solid #d2d6d0;
+    border-left: 3px solid  #7f7e7a;
+    border-bottom: 3px solid #d2d6d0;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    color: #e6a73c;
+    border-top: 2px solid #e6a73c;
+    font-size: 14px;
+    padding-top: 5px;
+}
